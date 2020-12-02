@@ -20,5 +20,5 @@ CMD_SET_WIFI_CLEAR_PASSWORD
 CMD_SET_WIFI_NAME
 CMD_SET_WIFI_PASSWORD
 
-
+Below is a quick/dirty way to test 8031 and get it to spit frames. Appears to only spit 3 sets of 24k, then kills the connection. Probably for battery savings.
 xxd -r -p <<< "999901000000000000000000000000000000000000000000" | nc -k -b -u -vv 192.168.10.123 8031 > flooper
