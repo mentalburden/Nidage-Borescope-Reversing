@@ -17,3 +17,9 @@ Day 4: FINALLY got UDP/8031 to spit an mjpeg'ish looking stream! Yaaaaaay! Had t
 ![front board](/images/nidage-front.jpg?raw=true)
 ![back board](/images/nidage-back.jpg?raw=true)
 ![chipclip](/images/nidage-dump.jpg?raw=true)
+
+Wireshark time:
+
+![startpkt](/images/nidage-packet-start.png?raw=true)
+![setcmd](/images/nidage-packet-setcmd.png?raw=true)
+![retcmd](/images/nidage-packet-retcmd.png?raw=true)
